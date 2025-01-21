@@ -4,12 +4,16 @@ import SelecaoEquipes from "./screens/SelecaoEquipes";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<TelaInicial />} />
-        <Route path="/selecao-equipes" element={<SelecaoEquipes />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <div className="h-screen flex items-center justify-center">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<TelaInicial />} />
+            <Route path="/selecao-equipes" element={<SelecaoEquipes />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
 }
 
