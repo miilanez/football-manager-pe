@@ -26,7 +26,7 @@ const Inicial = () => {
       </div>
 
       <footer className="absolute bottom-4 flex justify-center items-center text-center text-gray-400 text-sm">
-        Desenvolvido por Sua Equipe | © 2025 Football Manager Pernambuco
+        Desenvolvido por Gabriel Milanez | © 2025 Football Manager Pernambuco
       </footer>
     </div>
   );
